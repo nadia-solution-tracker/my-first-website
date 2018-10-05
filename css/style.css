@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Oswald',sans-serif;
+    
+}/*"CSS Reset" theory which helps keep your designs consistent across browsers, 
+a very good thing. */
+nav ul
+{
+    list-style:none;
+    background-color: #4a4a4f;
+    text-align:center;
+    padding:0;
+    margin:0;
+}/*remove any default padding and margin navigation have*/
+nav li{
+    font-size:1.2em;
+    line-height:40px;
+    height:40px;
+    display:inline-block;
+    margin:2.5%;
+}/*to apply inline block to display horizontal and apply hidden if neccessary*/
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+    display:block;
+}
+nav a:hover{
+    background-color: #ffffff;
+    color:#4a4a4f;
+}
+.card{
+    float:left;
+    width:20%;
+    margin-left:10%;
+}/*appear in single row*/
+.card a
+{
+    text-align:center;
+}
+
+img
+{
+    width:100%;
+}/*relative width to the container container is 20%*/
+h1{
+    text-align: center;
+}
